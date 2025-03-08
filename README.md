@@ -80,3 +80,10 @@ El código anterior consta de dos funciones principales: `fetchDatosClima(ciudad
 Recuerda reemplazar `'API_KEY'` en el código con tu propia clave de API obtenida de OpenWeatherMap.
 
 ¡Ahora deberías tener una aplicación de clima completamente funcional en tu página web! Los usuarios podrán ingresar una ciudad y obtener información actualizada sobre el clima en esa ubicación.
+
+## Mejoras en la web
+
+1. He añadido una mejora para la recepción de los datos en castellano. Añadiendo a la url de consulta los siguientes parametros: `&units=metric&lang=es` ya recibimos los datos en castellano y en grados Celsius, y ya no tenemos que convertir los datos de Kelvin a Celsius, la API nos los suministra como los queremos.
+
+2. Añado la sensación térmica, ya que me parece un dato bastante interesante.
+
